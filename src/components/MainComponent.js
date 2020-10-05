@@ -1,10 +1,15 @@
 import React from 'react'
+import Header from './HeaderComponent'
+import Footer from './FooterComponent'
+import Home from './HomeComponent'
 
 function Main (){
   return(
-  
-    <div>Hello World</div>
-   
+  <React.Fragment>
+  <Header/>
+  <Home/>
+  <Footer/>
+  </React.Fragment>
   )
 }
 

@@ -4,10 +4,124 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'CourierNew',
+monospace;
+}
+
+nav { 
+border:1px; 
+background-color:gray; 
+color:white; 
+padding:6px; 
+}
+     
+         
+.headerText { 
+font-size:40px; 
+color:#090; 
+font-weight:bold; 
+text-align:center; 
+} 
+
+.button{
+border:none;
+display:inline-block;
+padding:8px 16px;
+vertical-align:middle;
+overflow:hidden;
+text-decoration:none;
+color:inherit;
+background-color:inherit;
+text-align:center;
+font-size:25px;
+cursor:pointer;
+white-space:nowrap}
+
+.button:hover{
+background:red
+}
+
+.bar{
+display:inline-block;
+width:100%;
+}
+
+.item{
+padding:8px 16px;
+float:left;
+width:100%;
+border:none;
+display:block;
+outline:0}
+
+footer {
+width: 100%;
+display: inline-block;
+margin: 2em 0;
+height: 100%;
+background-color: #999;
+}
+
+.footerstyleleft {
+width: 50%;
+float: left;  
+}
+
+.footerstyleleft>p{
+font-size:20px
+}
+.footerstyleright{
+width: 50%;
+float: right;
+
+}
+
+.footerstyleright>p>a{
+  font-size:20px;
+  float:right;
+  margin-right:60px;
+}
+
+
+
+p{
+padding-left: 10%;
+color: white;
+font-size: 0.7em;
+line-height: 70px;
+text-transform: capitalize;
+letter-spacing: 1px;
+}
+
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+text-align:center;
+}
+
+text{
+margin-top:10px;
+font-size:20px;
+}
+
+
+
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+text-align: center;
+margin: 0 auto;
+margin-top:20px;
+width:80%;
+}
+
+.container{
+margin-left: auto;
+margin-right: auto;
 }

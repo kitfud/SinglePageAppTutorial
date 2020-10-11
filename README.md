@@ -7,6 +7,7 @@ The purpose of this tutorial is to walk through the key features of React JS and
 The tutorial also outlines an approach for designing a simple app in two parts which can be compared to creating an outline for a design and then filling it with ‘color.’ These sections are as follows:
 
 Part 1:Creating A Barebones Single Page App With Create-React-App
+
 Part 2:Styling the Single Page App Page Views
 
 Resources-->

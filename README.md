@@ -19,3 +19,6 @@ Github Repository: https://github.com/kitfud/SinglePageAppTutorial
 Repl.it Repository/Hosting:https://repl.it/@KitFuderich1/SinglePageApp
 
 Resource Walkthrough: https://www.youtube.com/watch?v=PYmPZERDtRo&feature=youtu.be
+
+![painting](https://raw.githubusercontent.com/kitfud/SinglePageAppTutorial/master/public/images/3.jpg)
+

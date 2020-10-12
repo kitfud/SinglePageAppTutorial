@@ -11,9 +11,11 @@ Part 1:Creating A Barebones Single Page App With Create-React-App
 Part 2:Styling the Single Page App Page Views
 
 Resources-->
+
 Tutorial Homepage: https://docs.google.com/document/d/1R8EMSgGiKJbxoN8HZCz0y_fHG4FfJYvmHuHC-c0rpQk/edit?usp=sharing
 
 Github Repository: https://github.com/kitfud/SinglePageAppTutorial
 
 Repl.it Repository/Hosting:https://repl.it/@KitFuderich1/SinglePageApp
 
+Resource Walkthrough: https://www.youtube.com/watch?v=PYmPZERDtRo&feature=youtu.be

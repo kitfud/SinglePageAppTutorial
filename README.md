@@ -12,7 +12,7 @@ Part 2:Styling the Single Page App Page Views
 
 Resources-->
 
-Tutorial Homepage: https://docs.google.com/document/d/1R8EMSgGiKJbxoN8HZCz0y_fHG4FfJYvmHuHC-c0rpQk/edit?usp=sharing
+Tutorial Homepage: https://github.com/kitfud/SinglePageAppTutorial/blob/master/Starving%20Artist_%20Time%20to%20React%20With%20Single%20Page%20Apps!%20.pdf
 
 Github Repository: https://github.com/kitfud/SinglePageAppTutorial
 

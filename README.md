@@ -8,11 +8,11 @@ The approach for designing the application itself is organized into two parts an
 
 <b>Part 1:</b> [Creating A Barebones Single Page App With Create-React-App](#part1)
 
-<b>Part 2:</b>[Styling the Single Page App Page Views](#part2)
+<b>Part 2:</b> [Styling the Single Page App Page Views](#part2)
 
 <h2>Resources--></h2>
 
-<b>Tutorial:</b>
+<b>Tutorial PDF format:</b>
 https://github.com/kitfud/SinglePageAppTutorial/blob/master/TutorialDocuments/Starving%20Artist_%20Time%20to%20React%20With%20Single%20Page%20Apps!%20.pdf
 
 <b>Repl.it Repo/Hosting:</b>https://repl.it/@KitFuderich1/SinglePageApp

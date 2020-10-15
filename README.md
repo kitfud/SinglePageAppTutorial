@@ -8,7 +8,7 @@ The approach for designing the application itself is organized into two parts an
 
 <b>Part 1:</b> [Creating A Barebones Single Page App With Create-React-App](#part1)
 
-<b>Part 2:</b>Styling the Single Page App Page Views
+<b>Part 2:</b>[Styling the Single Page App Page Views](#part2)
 
 <h2>Resources--></h2>
 
@@ -201,6 +201,7 @@ Afterwards, test the router by opening the Repl.It browser render in a new tab (
 
 <h4 align="center">GitCommit 5: <a href="https://github.com/kitfud/SinglePageAppTutorial/tree/57ea673d723bc3c3e43e31821ddd029c660fad1e">“Art component and page routing added.”</a></h4>
 
+<div id="part2"></div>
 <h1 align="center">Part 2: Styling the Single Page App Page Views</h1>
 <p>To keep this tutorial within the scope of React JS, and not necessary CSS styling (which could be a separate tutorial in itself), go ahead and change index.css to reflect the following styling rules in your <a href="https://github.com/kitfud/SinglePageAppTutorial/blob/b884d257b5fd29b2e9ed91cac7bd1a258a1646f5/src/index.css">index.css</a> file:</p>
 

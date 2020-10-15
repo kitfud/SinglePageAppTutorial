@@ -379,7 +379,7 @@ We then go ahead and ‘call’ this RenderPaintings functional component (line 
 
 <h4 align= "center">GitCommit 8: <a href="https://github.com/kitfud/SinglePageAppTutorial/tree/c6fe623dbaa1b0083b75546962c1b685d6bd431a">“Art Component Styled with help of React JSX”</a> </h4>
 
-<p>Conclusion: Through this tutorial I have demonstrated how to setup and implement a simple single page application using create-react-app and react-router-dom. With this, I have styled my views to showcase some of my paintings and my work is hosted live at this url:https://devserver-da5ea.web.app/home
+<p><b>Conclusion:</b> Through this tutorial I have demonstrated how to setup and implement a simple single page application using create-react-app and react-router-dom. With this, I have styled my views to showcase some of my paintings and my work is hosted live at this url:https://devserver-da5ea.web.app/home
 .
 Many of the concepts outlined can be extended and there is still a lot which can be included and improved within my code base. With this in mind, I encourage those learning to experiment with my code and begin by changing some of the variables to see what results as well as adapting the content to reflect your own interests; especially if painting is not your thing.
 

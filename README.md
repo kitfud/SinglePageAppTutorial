@@ -51,6 +51,7 @@ React JS allows us to create a hybrid of HTML/CSS known as <a href="https://www.
   <li>For React JS you’ll want to be familiar with ES6 syntax. During this tutorial, arrow functions and the higher order map() function is used. </li>
   <li>Experience with HTML/CSS and how the structure of code dictates the template for what is ‘viewed’ as the end result of a data flow.</li>
   <li>Important: I recommend that you complete the following React JS tutorial from the official documentation page: https://reactjs.org/tutorial/tutorial.html</li>
+ </ul>
  
 <h2>Software:</h2>
 <p>

@@ -6,8 +6,7 @@ The purpose of this tutorial is to walk through the key features of React JS and
 
 The approach for designing the application itself is organized into two parts and these sections are as follows:
 
-
-<b>Part 1:</b>Creating A Barebones Single Page App With Create-React-App
+<b>Part 1:</b> [Creating A Barebones Single Page App With Create-React-App](#part1)
 
 <b>Part 2:</b>Styling the Single Page App Page Views
 
@@ -87,7 +86,8 @@ Repl.It will also allow us to save or work, view previews of our code also host 
 
 <h4 align="center"> <em>Overall commit history for this project here:</em> https://github.com/kitfud/SinglePageAppTutorial/commits/master</h4>
 
-<h1 align="center">Part 1: Creating A Barebones Single Page App With Create-React-App </h1>
+<div id="part1"></div>
+<h1 id = "part1" align="center">Part 1: Creating A Barebones Single Page App With Create-React-App </h1>
 
 <p><b>Scaffolding A Create-React-App:</b> Create a new “New Repl” by clicking the button in the top left part of the screen after you access the <a href="https://repl.it/~">Repl.It webpage</a>. Within the drop down menu for creating a new Repl.it, select “Create React App” and give your app a name. I’ve called mine “SinglePageApp”:</p>
 
@@ -353,3 +353,37 @@ Within this newly created folder named ‘shared’, create a file called <a hre
 <p align="center">Notice how our Header and Footer component text is still sandwiching the image at this stage!! </p>
 
 <h4 align="center">GitCommit 6: <a href="https://github.com/kitfud/SinglePageAppTutorial/tree/b884d257b5fd29b2e9ed91cac7bd1a258a1646f5">“Home Component Styled and index.css, multiple lines of code for styling added.”</a>  </h4>
+
+<p><b>Styling the Header + Footer Component:</b> For the header component we are going to go about adding some navigational tools. Specifically a Navbar (by including a 'nav' tag) which will hold buttons to link between the Home and Art page views. Notice how a main addition to the code at this point is also the importing of the {Link} module from ‘react-router-dom’ (line 2-<a href="https://github.com/kitfud/SinglePageAppTutorial/blob/e4891f6ead8ab534a604706fcf9a291f3f9e3d23/src/components/HeaderComponent.js">HeaderComponent.js</a>):  </p>
+
+![screenshot](https://raw.githubusercontent.com/kitfud/SinglePageAppTutorial/master/TutorialDocuments/screenshots/image1.png)
+
+<p> <b>Let’s add to the Footer component:</b> navigate to FooterComponent.js and <a href="https://github.com/kitfud/SinglePageAppTutorial/blob/e4891f6ead8ab534a604706fcf9a291f3f9e3d23/src/components/FooterComponent.js">change the code to following seen in the image below.</a> The idea here is that this element holds a link for contacting us as well as some information about the date our app was developed: </p>
+
+![screenshot](https://raw.githubusercontent.com/kitfud/SinglePageAppTutorial/master/TutorialDocuments/screenshots/image7.png)
+
+<h4 align="center"> GitCommit 7: <a href="https://github.com/kitfud/SinglePageAppTutorial/tree/e4891f6ead8ab534a604706fcf9a291f3f9e3d23">“Header and Footer component styled with Navbar and contact link”</a> </h4>
+
+<p><b>Styling the Art Component and Rendering With JSX:</b> Last thing we need to complete is the styling of our Art component which will hold a grid of images along with information about each painting. 
+
+For this we will have to format the array of objects we coded earlier in, <a href="https://github.com/kitfud/SinglePageAppTutorial/blob/e4891f6ead8ab534a604706fcf9a291f3f9e3d23/src/components/shared/art.js">art.js</a>. First off we will import the {ART} module out of the art.js file using the file path ‘./shared/art’. <a href="https://github.com/kitfud/SinglePageAppTutorial/blob/c6fe623dbaa1b0083b75546962c1b685d6bd431a/src/components/ArtComponent.js">The ArtComponent.js file should look like the following:</a>  </p>
+
+![screenshot](https://raw.githubusercontent.com/kitfud/SinglePageAppTutorial/master/TutorialDocuments/screenshots/image10.png)
+
+<p>The key features of the code, in <a href="https://github.com/kitfud/SinglePageAppTutorial/blob/c6fe623dbaa1b0083b75546962c1b685d6bd431a/src/components/ArtComponent.js">ArtComponent.js</a>, includes the RenderPaintings() function (line 5, picture above). With the use of this function we have an implementation of JSX; blending of HTML with JavaScript, as you can see squiggly parentheses ‘{ }’ invoking a JavaScript variable (line 19) where HTML is being described. 
+
+We then go ahead and ‘call’ this RenderPaintings functional component (line 29) in our Art Component and this maps the objects within our array (<a  href="https://github.com/kitfud/SinglePageAppTutorial/blob/c6fe623dbaa1b0083b75546962c1b685d6bd431a/src/components/shared/art.js">art.js</a>) and pulls each image into a column of the table along with the title in an adjacent column. 
+
+<b>Note:</b> I’ve included some inline styling (the use of “cost margin”) to align some of the cells. I’ve also included a “Link” tag to return the user back to Home view upon a click on this text.</p>
+
+<h4 align= "center">GitCommit 8: <a href="https://github.com/kitfud/SinglePageAppTutorial/tree/c6fe623dbaa1b0083b75546962c1b685d6bd431a">“Art Component Styled with help of React JSX”</a> </h4>
+
+<p>Conclusion: Through this tutorial I have demonstrated how to setup and implement a simple single page application using create-react-app and react-router-dom. With this, I have styled my views to showcase some of my paintings and my work is hosted live at this url:https://devserver-da5ea.web.app/home
+.
+Many of the concepts outlined can be extended and there is still a lot which can be included and improved within my code base. With this in mind, I encourage those learning to experiment with my code and begin by changing some of the variables to see what results as well as adapting the content to reflect your own interests; especially if painting is not your thing.
+
+Concepts learners should pursue after this tutorial are class based components, the use of React Hooks, passing of ‘props’ between components, as well as state management through Redux. A quick internet search of any of these is likely to pull up a variety of helpful resources for self study. 
+
+Wishing you the best of luck with your coding and next time you are enjoying a coffee or tea at home, perhaps staring at a blank wall, please remember that you can navigate to <a href="https://devserver-da5ea.web.app/home">Kit’s Art</a> and contact me about acquiring one of my paintings to make things more colorful. </p>
+
+<p align="center">Be well, be healthy, and happy creating :)</p>

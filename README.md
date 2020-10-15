@@ -84,7 +84,7 @@ Repl.It will also allow us to save or work, view previews of our code also host 
 
 <p>Note: You can click on the commit message (blue text) for each of the ensuing checkpoints and the link will take you directly to a repository for viewing the code. </p>
 
-<h4 align="center"> <em>Overall commit history for this project here:</em> https://github.com/kitfud/SinglePageAppTutorial/commits/master</h4>
+<h4 align="center">Overall commit history for this project: <a href="https://github.com/kitfud/SinglePageAppTutorial/commits/master">CLICK HERE</a></h4>
 
 <div id="part1"></div>
 <h1 id = "part1" align="center">Part 1: Creating A Barebones Single Page App With Create-React-App </h1>

@@ -14,7 +14,9 @@ Resources-->
 
 Tutorial Homepage: https://github.com/kitfud/SinglePageAppTutorial/blob/master/Starving%20Artist_%20Time%20to%20React%20With%20Single%20Page%20Apps!%20.pdf
 
-Repl.it Repository/Hosting:https://repl.it/@KitFuderich1/SinglePageApp
+Repl.it Repo/Hosting:https://repl.it/@KitFuderich1/SinglePageApp
+
+Live Deployment of App: https://devserver-da5ea.web.app/home
 
 Resource Walkthrough: https://www.youtube.com/watch?v=PYmPZERDtRo&feature=youtu.be
 

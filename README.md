@@ -71,7 +71,7 @@ Repl.It will also allow us to save or work, view previews of our code also host 
 |![painting](https://raw.githubusercontent.com/kitfud/SinglePageAppTutorial/master/TutorialDocuments/screenshots/image11.png)     | ![painting](https://raw.githubusercontent.com/kitfud/SinglePageAppTutorial/master/TutorialDocuments/screenshots/image19.png)| 
 
 
-<h4 align="center">Check it out! Completed App URL:https://devserver-da5ea.web.app/home </h3>
+<h4 align="center">Check it out! Completed App URL:https://artserver-9afd8.web.app/home </h3>
 
 <p> There are multiple ways to create such a two view application (as shown above) and the antiquated style of doing something like this may have been to code up two separate HTML pages, each of which to represent a separate ‘view.’ However, this has performance drawbacks, specifically the re-rendering of an entire HTML page rather than just the specific components which need to change per the differences between them.  </p>
 

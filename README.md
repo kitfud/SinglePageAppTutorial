@@ -379,12 +379,12 @@ We then go ahead and ‘call’ this RenderPaintings functional component (line 
 
 <h4 align= "center">GitCommit 8: <a href="https://github.com/kitfud/SinglePageAppTutorial/tree/c6fe623dbaa1b0083b75546962c1b685d6bd431a">“Art Component Styled with help of React JSX”</a> </h4>
 
-<p><b>Conclusion:</b> Through this tutorial I have demonstrated how to setup and implement a simple single page application using create-react-app and react-router-dom. With this, I have styled my views to showcase some of my paintings and my work is hosted live at this url:https://devserver-da5ea.web.app/home
+<p><b>Conclusion:</b> Through this tutorial I have demonstrated how to setup and implement a simple single page application using create-react-app and react-router-dom. With this, I have styled my views to showcase some of my paintings and my work is hosted live at this url:https://artserver-9afd8.web.app/home
 .
 Many of the concepts outlined can be extended and there is still a lot which can be included and improved within my code base. With this in mind, I encourage those learning to experiment with my code and begin by changing some of the variables to see what results as well as adapting the content to reflect your own interests; especially if painting is not your thing.
 
 Concepts learners should pursue after this tutorial are class based components, the use of React Hooks, passing of ‘props’ between components, as well as state management through Redux. A quick internet search of any of these is likely to pull up a variety of helpful resources for self study. 
 
-Wishing you the best of luck with your coding and next time you are enjoying a coffee or tea at home, perhaps staring at a blank wall, please remember that you can navigate to <a href="https://devserver-da5ea.web.app/home">Kit’s Art</a> and contact me about acquiring one of my paintings to make things more colorful. </p>
+Wishing you the best of luck with your coding and next time you are enjoying a coffee or tea at home, perhaps staring at a blank wall, please remember that you can navigate to <a href="https://artserver-9afd8.web.app/home">Kit’s Art</a> and contact me about acquiring one of my paintings to make things more colorful. </p>
 
 <p align="center">Be well, be healthy, and happy creating :)</p>

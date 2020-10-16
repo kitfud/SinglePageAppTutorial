@@ -17,7 +17,7 @@ https://github.com/kitfud/SinglePageAppTutorial/blob/master/TutorialDocuments/St
 
 <b>Repl.it Repo/Hosting:</b>https://repl.it/@KitFuderich1/SinglePageApp
 
-<b>Live Deployment of App:</b> https://devserver-da5ea.web.app/home
+<b>Live Deployment of App:</b> https://artserver-9afd8.web.app/home
 
 <b>Resource Walkthrough:</b> https://www.youtube.com/watch?v=PYmPZERDtRo&feature=youtu.be
 
